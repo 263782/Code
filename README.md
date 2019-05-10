@@ -1,7 +1,7 @@
-#H1 Stalrijopleiding
+# Stalrijopleiding
 
 
-#H2 CONTENT
+## CONTENT
 * home page
 * admin
 * information page
