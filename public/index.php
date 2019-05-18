@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title><CODE></title>
+<title>STAL RIJOPLEIDING</title>
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-<?php include '../private/includes/nav.php' ?>
+<?php include 'includes/nav.php'; ?>
 </body>
 </html>
