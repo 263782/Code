@@ -199,7 +199,6 @@ nav a{
 }
 
 .stripe{
-    padding-top: 630px;
     margin-left: -170px;
     width: 1680px;
     height: 920px;
@@ -222,10 +221,6 @@ nav a{
 .welkom h1{
     font-size: 50px;
     margin-left: 170px;
-}
-
-.welkom background-image{
-    margin-left: -170px;
 }
 
 .welkom__button{
@@ -251,4 +246,66 @@ nav a{
 .welkom p{
     padding-top: 40vh;
     margin-left: 170px;
+}
+
+.uitleg{
+    padding-top: 125px;
+    color: #237d98;
+}
+
+.uitleg h1{
+    font-size: 40px;
+}
+
+.uitleg p{
+    font-size: 19px;
+}
+
+.uitleg__button{
+    background-color: #dc8368;
+    border: none;
+    color: #fff;
+    width: 125px;
+    height: 35px;
+    border-radius: 24px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.uitleg__button:hover{
+    background-color: #af6a54;
+    color: #c2c2c2;
+    transition: 1s;
+}
+
+.meerinfo{
+    background-image: url("../images/background.png");
+    color: #237d98;
+    height: 100vw;
+    margin-left: -170px;
+    display: flex;
+    flex-direction: row;
+}
+
+.blok{
+    width: 330px;
+    height: 330px;
+    -webkit-box-shadow: 6px 8px 5px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 6px 8px 5px 0px rgba(0,0,0,0.15);
+    box-shadow: 6px 8px 5px 0px rgba(0,0,0,0.15);
+    margin-left: 170px;
+    margin-top: 400px;
+    background-color: #fafafa;
+    border: none;
+    text-align: center;
+}
+
+.blok svg{
+    width: 200px;
+    height: 200px;
+}
+
+.blok h1{
+    padding-top: 30px;
 }
