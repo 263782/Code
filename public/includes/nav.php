@@ -8,7 +8,6 @@
 </head>
 <body>
     <nav>
-    <div class="header">
        <a href="../">STAL RIJOPLEIDING</a>
         <img src="assets/images/LOGO_STAL.png" alt="logo">
         <form class="nav__form" style="margin: 0;" action="search" method="get">
@@ -18,23 +17,23 @@
                 </button>
         </form>
 
-        <div class="nav__hamburger">
-            <input type="checkbox" id="nav__toggle" style="display:none;">
-            <label for="nav__toggle" class="nav__ham-toggle">
-                <span class="line line1"></span>
-                <span class="line line2"></span>
-                <span class="line line3"></span>
-            </label>
-            <div class="nav__links">
-                <a class="nav_" href="http://">HOME</a>
-                <a class="nav_" href="http://">OVER ONS</a>
-                <a class="nav_" href="http://">LES AUTO</a>
-                <a class="nav_" href="http://">TARIEVEN</a>
-                <a class="nav_" href="http://">2TODRIVE</a>
-                <a class="nav_" href="http://">LINKS</a>
-                <a class="nav_" href="http://">CONTACT</a>
-            </div>
+    <div class="test">
+        <input type="checkbox" id="nav-toggle" style="display:none;"/>
+        <label class="nav-toggle-label" for="nav-toggle">
+            <span class="nav-toggle-label-span-1"></span>
+            <span class="nav-toggle-label-span-2"></span>
+            <span class="nav-toggle-label-span-3"></span>
+        </label>
+        <div class="nav-links-container">
+            <a class="nav-link" href="/school/">OVER ONS</a>
+            <a class="nav-link" href="/school/#about">DE OPLEIDING</a>
+            <a class="nav-link" href="/school/#portfolio">LES AUTO</a>
+            <a class="nav-link" href="/school/#work">TARIEVEN</a>
+            <a class="nav-link" href="/school/#contact">2TODRIVE</a>
+            <a class="nav-link" href="/school/#contact">LINKS</a>
+            <a class="nav-link" href="/school/#contact">CONTACT</a>
         </div>
+    </div>
     </nav>
-    </body>
+</body>
 </html>

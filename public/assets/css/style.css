@@ -4,28 +4,31 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.header{
+nav{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     width: 100%;
     box-shadow: 0px -4px 8px;
     padding: 10px 0px;
+    margin: 0;
 }
 
-.header img{
+nav img{
     width: 50px;
     height: 40px;
-    padding-left: 20px;
+    margin-left: -125px;
+    margin-right: 500px;
 }
 
-.header a{
+nav a{
     color: #237d98;
     font-size: 35px;
     font-weight: bold;
     cursor: pointer;
     margin-right: 10px;
     position: relative;
-    padding-left: 170px;
+    margin-left: 170px;
     text-decoration: none;
 }
 
@@ -40,7 +43,7 @@
 .nav__input {
     width: 100%;
     height: 100%;
-    padding: 0 45px 0 10px;
+    padding: 4px 45px 4px 10px;
     border-radius: 40px;
     border: 1px solid rgba(0,0,0,0.2);
     color: #000;
@@ -75,6 +78,7 @@
     stroke-width: 1px;
     stroke: rgba(0,0,0,0.2);
     transition: stroke 200ms ease;
+    margin-top: 4px;
 }
 
 .nav__search-btn:hover svg > path {
@@ -84,15 +88,8 @@
 .nav__search-btn border{
     display: none;
 }
-.nav__hamburger{
-    display: flex;
-}
-.nav__{
-    display: none;
-}
 
-
-.nav__ham-toggle {
+.nav-toggle-label {
     width: 100%;
     height: 100%;
     display: flex;
@@ -101,37 +98,10 @@
     flex-direction: column;
     cursor: pointer;
     z-index: 120;
+    margin-right: 40px;
 }
 
-.nav__links {
-    position: fixed;
-    top: 65px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100vw;
-    height: calc(100vh - 65px);
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
-    background: rgb(255, 255, 255);
-    transform: translateX(100vw);
-    transition: transform 0.5s ease;
-    z-index: 50;
-}
-.nav_{
-    font-size: 24px;
-    color: #121212;
-    margin: 10px 0;
-    padding: 16px;
-    position: relative;
-    font-weight: 300;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
-.line {
+.nav-toggle-label-span-1, .nav-toggle-label-span-2, .nav-toggle-label-span-3 {
     background: #000;
     cursor: pointer;
     z-index: 110;
@@ -139,25 +109,77 @@
     justify-content: center;
     align-items: center;
     width: 50px;
-    height: 3px;
+    height: 5px;
     margin: 5px 0;
     transition: opacity 200ms ease, transform 200ms ease;
 }
 
-.nav__hamburger{
-    display: none;
-    padding-right: 40px;
-    z-index: -1;
+.nav-links-container {
+    position: fixed;
+    top: 55px;
+    left: 0;
+    right: 0;
+    bottom: 50px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    transform: translateX(100vw);
+    transition: transform 0.5s ease;
+    z-index: 50;
 }
-.nav_::after {
+
+.nav-link {
+    font-size: 30px;
+    color: #237d98;
+    margin: 10px 0;
+    padding: 16px;
+    position: relative;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav-link_company{
+    font-size: 50px;
+    color: #237d98;
+    margin: 10px 0;
+    padding: 16px;
+    position: relative;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav-link::after {
     content: '';
     position: absolute;
     transform: scale(0,1);
     width: 100%;
     height: 5px;
-    background: #6200ee;
+    background: #237d98;
     transition: transform 200ms ease;
-    top: 50px;
     left: 0;
-    border-radius: 12px;
+    top: 50px;
+}
+
+.nav-link:hover::after {
+    transform: scale(1,1);
+}
+
+#nav-toggle:checked ~ .nav-links-container {
+    transform: translateX(0);
+}
+
+#nav-toggle:checked ~ .nav-toggle-label .nav-toggle-label-span-1 {
+    transform: translateY(15px) rotate(-45deg)
+}
+
+#nav-toggle:checked ~ .nav-toggle-label .nav-toggle-label-span-2 {
+    opacity: 0;
+}
+
+#nav-toggle:checked ~ .nav-toggle-label .nav-toggle-label-span-3 {
+    transform: translateY(-15px) rotate(45deg);
 }
