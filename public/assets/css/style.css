@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 1680px;
+    text-decoration: none;
 }
 
 nav{
@@ -12,12 +14,14 @@ nav{
     box-shadow: 0px -4px 8px;
     padding: 10px 0px;
     margin: 0;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.900);
 }
 
 nav img{
     width: 50px;
     height: 40px;
-    margin-left: -125px;
+    margin-left: -110px;
     margin-right: 500px;
 }
 
@@ -30,6 +34,7 @@ nav a{
     position: relative;
     margin-left: 170px;
     text-decoration: none;
+    letter-spacing: 3px;
 }
 
 .nav__form {
@@ -60,7 +65,7 @@ nav a{
     top: 50%;
     right: -45px;
     transform: translateY(-50%);
-    background: #fff;
+    background: rgba(255, 255, 255, 0.900);
     width: 30px;
     height: 20px;
     display: flex;
@@ -116,7 +121,7 @@ nav a{
 
 .nav-links-container {
     position: fixed;
-    top: 55px;
+    top: 65px;
     left: 0;
     right: 0;
     bottom: 50px;
@@ -126,7 +131,7 @@ nav a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.900);
     transform: translateX(100vw);
     transition: transform 0.5s ease;
     z-index: 50;
@@ -182,4 +187,68 @@ nav a{
 
 #nav-toggle:checked ~ .nav-toggle-label .nav-toggle-label-span-3 {
     transform: translateY(-15px) rotate(45deg);
+}
+.wrapper{
+    margin-left: 170px;
+}
+
+.auto{
+    margin-left: -170px;
+    width: 1680px;
+    height: 920px;
+}
+
+.stripe{
+    padding-top: 630px;
+    margin-left: -170px;
+    width: 1680px;
+    height: 920px;
+}
+
+.welkom{
+    height: 100vh;
+    background-image: url("../images/auto.png");
+    margin-left: -170px;
+    color: #fff;
+}
+
+.welkom p{
+    position: inherit;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.welkom h1{
+    font-size: 50px;
+    margin-left: 170px;
+}
+
+.welkom background-image{
+    margin-left: -170px;
+}
+
+.welkom__button{
+    background-color: #dc8368;
+    border: none;
+    color: #fff;
+    width: 250px;
+    height: 75px;
+    margin-left: 170px;
+    border-radius: 32px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.welkom__button:hover{
+    background-color: #af6a54;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: #c2c2c2;
+    transition: 1s;
+}
+
+.welkom p{
+    padding-top: 40vh;
+    margin-left: 170px;
 }
