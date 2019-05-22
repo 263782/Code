@@ -25,13 +25,13 @@
             <span class="nav-toggle-label-span-3"></span>
         </label>
         <div class="nav-links-container">
-            <a class="nav-link" href="/school/">OVER ONS</a>
-            <a class="nav-link" href="/school/#about">DE OPLEIDING</a>
-            <a class="nav-link" href="/school/#portfolio">LES AUTO</a>
-            <a class="nav-link" href="/school/#work">TARIEVEN</a>
-            <a class="nav-link" href="/school/#contact">2TODRIVE</a>
-            <a class="nav-link" href="/school/#contact">LINKS</a>
-            <a class="nav-link" href="/school/#contact">CONTACT</a>
+            <a class="nav-link" href="/">OVER ONS</a>
+            <a class="nav-link" href="/">DE OPLEIDING</a>
+            <a class="nav-link" href="/">LES AUTO</a>
+            <a class="nav-link" href="/">TARIEVEN</a>
+            <a class="nav-link" href="/">2TODRIVE</a>
+            <a class="nav-link" href="/">LINKS</a>
+            <a class="nav-link" href="/">CONTACT</a>
         </div>
     </div>
     </nav>
