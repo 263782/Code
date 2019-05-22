@@ -5,7 +5,7 @@
 </head>
 <body>
     <nav>
-       <a href="../">STAL RIJOPLEIDING</a>
+       <a href="http://localhost:8888/GitHub/Code/public">STAL RIJOPLEIDING</a>
         <img src="assets/images/LOGO_STAL.png" alt="logo">
         <form class="nav__form" style="margin: 0;" action="search" method="get">
                 <input class="nav__input" type="text" name="q" placeholder="ZOEKEN OP DE PAGINA" title="q" autocomplete="off" autocorrect="off" spellcheck="false" autocapitalize="none"/>
@@ -23,7 +23,7 @@
         </label>
         <div class="nav-links-container">
             <a class="nav-link" href="/">OVER ONS</a>
-            <a class="nav-link" href="/">DE OPLEIDING</a>
+            <a class="nav-link" href="http://localhost:8888/GitHub/Code/public/opleiding.php">DE OPLEIDING</a>
             <a class="nav-link" href="/">LES AUTO</a>
             <a class="nav-link" href="/">TARIEVEN</a>
             <a class="nav-link" href="http://localhost:8888/GitHub/Code/public/todrive.php">2TODRIVE</a>
