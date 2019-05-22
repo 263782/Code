@@ -11,11 +11,11 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    box-shadow: 0px -4px 8px;
+    box-shadow: 0px -1px 8px;
     padding: 10px 0px;
     margin: 0;
     position: fixed;
-    background-color: rgba(255, 255, 255, 0.900);
+    background-color: rgba(255, 255, 255, 0.950);
 }
 
 nav img{
@@ -50,8 +50,8 @@ nav a{
     height: 100%;
     padding: 4px 45px 4px 10px;
     border-radius: 40px;
-    border: 1px solid rgba(0,0,0,0.2);
-    color: #000;
+    border: 1px solid rgb(236, 236, 236);
+    color:  #000;
     font-size: 12px;
     transition: border 200ms ease;
 }
@@ -65,7 +65,7 @@ nav a{
     top: 50%;
     right: -45px;
     transform: translateY(-50%);
-    background: rgba(255, 255, 255, 0.900);
+    background: rgba(255, 255, 255, 0.950);
     width: 30px;
     height: 20px;
     display: flex;
@@ -116,6 +116,7 @@ nav a{
     width: 50px;
     height: 5px;
     margin: 5px 0;
+    border-radius: 12px;
     transition: opacity 200ms ease, transform 200ms ease;
 }
 
@@ -131,7 +132,7 @@ nav a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: rgba(255, 255, 255, 0.900);
+    background: rgba(255, 255, 255, 0.950);
     transform: translateX(100vw);
     transition: transform 0.5s ease;
     z-index: 50;
@@ -167,6 +168,7 @@ nav a{
     transition: transform 200ms ease;
     left: 0;
     top: 50px;
+    border-radius: 12px;
 }
 
 .nav-link:hover::after {
@@ -206,7 +208,10 @@ nav a{
 
 .welkom{
     height: 100vh;
-    background-image: url("../images/auto.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.103)), url("../images/car1.png");
+    background-size: cover;
+    background-position: center center;
+    background-color: #000;
     margin-left: -170px;
     color: #fff;
 }
@@ -237,14 +242,14 @@ nav a{
 }
 
 .welkom__button:hover{
-    background-color: #af6a54;
+    background-color: #ff8a62;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-    color: #c2c2c2;
+    color: #fdfdfd;
     transition: 1s;
 }
 
 .welkom p{
-    padding-top: 40vh;
+    padding-top: 30vh;
     margin-left: 170px;
 }
 
@@ -274,8 +279,9 @@ nav a{
 }
 
 .uitleg__button:hover{
-    background-color: #af6a54;
-    color: #c2c2c2;
+    background-color: #ff8a62;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: #fdfdfd;
     transition: 1s;
 }
 
@@ -286,26 +292,26 @@ nav a{
     margin-left: -170px;
     display: flex;
     flex-direction: row;
+    margin-top: -500px;
 }
 
 .blok{
     width: 330px;
     height: 330px;
-    -webkit-box-shadow: 6px 8px 5px 0px rgba(0,0,0,0.15);
-    -moz-box-shadow: 6px 8px 5px 0px rgba(0,0,0,0.15);
-    box-shadow: 6px 8px 5px 0px rgba(0,0,0,0.15);
+    box-shadow: 6px 8px 5px 2px rgba(0,0,0,0.30);
     margin-left: 170px;
-    margin-top: 400px;
+    margin-top: 775px;
     background-color: #fafafa;
     border: none;
     text-align: center;
+    border-radius: 12px;
 }
 
 .blok svg{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
-.blok h1{
-    padding-top: 30px;
+.blok h2{
+    padding-top: 40px;
 }
