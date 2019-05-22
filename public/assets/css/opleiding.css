@@ -20,3 +20,31 @@
 .theorie p {
     padding-left: 170px;
 }
+
+.praktijk p{
+    color: #ffffff;
+    float: right;
+    margin-top: -700px;
+}
+
+.praktijk h2{
+    color: #ffffff;
+    float: right;
+    margin-top: -750px;
+    padding-right: 810px;
+}
+
+.praktijk {
+    margin-right: 100px;
+    margin-top: -200px;
+}
+
+footer{
+    margin-top: 500px;
+}
+
+.praktijktwee{
+    color: #ffffff;
+    margin-left: 170px;
+    margin-top: -600px;
+}
