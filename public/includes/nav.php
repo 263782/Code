@@ -1,9 +1,6 @@
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="assets/images/LOGO_STAL.png" />
 </head>
 <body>
@@ -29,7 +26,7 @@
             <a class="nav-link" href="/">DE OPLEIDING</a>
             <a class="nav-link" href="/">LES AUTO</a>
             <a class="nav-link" href="/">TARIEVEN</a>
-            <a class="nav-link" href="/">2TODRIVE</a>
+            <a class="nav-link" href="http://localhost:8888/GitHub/Code/public/todrive.php">2TODRIVE</a>
             <a class="nav-link" href="/">LINKS</a>
             <a class="nav-link" href="/">CONTACT</a>
         </div>
