@@ -53,6 +53,46 @@
                 </form> 
             </div>
     </div>
+    <div class="posts">
+    <svg xmlns="http://www.w3.org/2000/svg" class="svg" width="100px" height="100px" viewBox="0 0 24 24"><path d="M14 7l-5 5 5 5V7z"/><path fill="none" d="M24 0v24H0V0h24z"/></svg>
+        <div class="block">
+            <div class="block_top">
+                <img src="assets/images/LOGO_STAL.png" alt="logo">
+                <p>STAL RIJOPLEIDING</p>
+            </div>
+            <div class="block_date">
+                <svg xmlns="http://www.w3.org/2000/svg" class="block_svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z"/><path fill="none" d="M0 0h24v24H0z"/></svg>
+                <p>22 - 05 - 2019</p>
+            </div>
+            <div class="block_text">
+            Onze nieuwe Facebook actie: Voor slechts 165,00 euro per maand je rijbewijs halen? <br> Nu kan het!
+            Neem een 35 uren rijlessenpakket inclusief CBR tussentijdse toets en CBR praktijkexamen en betaal in 12 termijnen. <br>
+            Zo houden we de rijlessen voor iedereen toegankelijk! <br>
+            Bel, WhatsApp of email vandaag nog voor meer informatie en de voorwaarden!
+            </div>
+            <img src="assets/images/auto.jpeg" alt="auto" class="post">
+        </div>
+
+        <div class="block">
+            <div class="block_top">
+                <img src="assets/images/LOGO_STAL.png" alt="logo">
+                <p>STAL RIJOPLEIDING</p>
+            </div>
+            <div class="block_date">
+                <svg xmlns="http://www.w3.org/2000/svg" class="block_svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z"/><path fill="none" d="M0 0h24v24H0z"/></svg>
+                <p>22 - 05 - 2019</p>
+            </div>
+            <div class="block_text">
+            Onze nieuwe Facebook actie: Voor slechts 165,00 euro per maand je rijbewijs halen? <br> Nu kan het!
+            Neem een 35 uren rijlessenpakket inclusief CBR tussentijdse toets en CBR praktijkexamen en betaal in 12 termijnen. <br>
+            Zo houden we de rijlessen voor iedereen toegankelijk! <br>
+            Bel, WhatsApp of email vandaag nog voor meer informatie en de voorwaarden!
+            </div>
+            <img src="assets/images/auto.jpeg" alt="auto" class="post">
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="svg" width="100px" height="100px" viewBox="0 0 24 24"><path d="M10 17l5-5-5-5v10z"/><path fill="none" d="M0 24V0h24v24H0z"/></svg>
+    </div>
+
 </div>
 <?php include 'includes/footer.php'; ?>
 </body> 

@@ -320,6 +320,69 @@ footer{
     height: 250px;
     color: #237d98;
     background-color: #fff;
+    padding-top: 300px;
+}
+
+.posts {
+    display: flex;
+    justify-content: space-between;
+    color: #237d98;
+    padding-right: 170px;
+    margin-top: -200px;
+}
+
+.block_top img {
+    width: 60px;
+    height: 50px;
+    padding: 30px; 
+    float: left;
+}
+
+.block {
+    width: 500px;
+    height: 500px;
+    box-shadow: 6px 8px 5px 2px rgba(0,0,0,0.30);
+    background-color: #fafafa;
+    border-radius: 12px;
+    margin: 50px;
+}
+
+.block_top {
+    display: flex;
+    flex-direction: row;
+}
+
+.block_top p {
+    padding-top: 30px;
+}
+
+.block_date {
+    display: flex;
+    flex-direction: row;
+    margin-left: 115px;
+    margin-top: -50px;
+}
+
+.block_svg{
+    fill: #237d98;
+}
+
+.block_date p{
+    margin-top: 3px;
+    margin-left: 20px;
+} 
+
+.post{
+    width: 500px;
+}
+
+.block_text{
+    font-size: 10px;
+    padding: 30px;
+}
+
+.svg {
+    padding-top: 200px;
 }
 
 footer a:hover{
