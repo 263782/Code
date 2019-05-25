@@ -278,13 +278,13 @@ nav a{
     border-radius: 12px;
     font-size: 18px;
     cursor: pointer;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .uitleg__button:hover{
     background-color: #dc8368;
     color: #fdfdfd;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .meerinfo{
