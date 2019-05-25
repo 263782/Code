@@ -53,46 +53,84 @@
                 </form> 
             </div>
     </div>
-    <div class="posts">
-    <svg xmlns="http://www.w3.org/2000/svg" class="svg" width="100px" height="100px" viewBox="0 0 24 24"><path d="M14 7l-5 5 5 5V7z"/><path fill="none" d="M24 0v24H0V0h24z"/></svg>
-        <div class="block">
-            <div class="block_top">
-                <img src="assets/images/LOGO_STAL.png" alt="logo">
-                <p>STAL RIJOPLEIDING</p>
-            </div>
-            <div class="block_date">
-                <svg xmlns="http://www.w3.org/2000/svg" class="block_svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z"/><path fill="none" d="M0 0h24v24H0z"/></svg>
-                <p>22 - 05 - 2019</p>
-            </div>
-            <div class="block_text">
-            Onze nieuwe Facebook actie: Voor slechts 165,00 euro per maand je rijbewijs halen? <br> Nu kan het!
-            Neem een 35 uren rijlessenpakket inclusief CBR tussentijdse toets en CBR praktijkexamen en betaal in 12 termijnen. <br>
-            Zo houden we de rijlessen voor iedereen toegankelijk! <br>
-            Bel, WhatsApp of email vandaag nog voor meer informatie en de voorwaarden!
-            </div>
-            <img src="assets/images/auto.jpeg" alt="auto" class="post">
-        </div>
+    <div class="background2">
+        <div class="background-fix">
+       
+        <div class="posts">
+                <svg xmlns="http://www.w3.org/2000/svg" class="svg" width="100px" height="100px" viewBox="0 0 24 24"><path d="M14 7l-5 5 5 5V7z"/><path fill="none" d="M24 0v24H0V0h24z"/></svg>
+                <div class="block">
+                    <div class="block_top">
+                        <img src="assets/images/LOGO_STAL.png" alt="logo">
+                        <p>STAL RIJOPLEIDING</p>
+                    </div>
+                    <div class="block_date">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="block_svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z"/><path fill="none" d="M0 0h24v24H0z"/></svg>
+                        <p>22 - 05 - 2019</p>
+                    </div>
+                    <div class="block_text">
+                    Onze nieuwe Facebook actie: Voor slechts 165,00 euro per maand je rijbewijs halen? <br> Nu kan het!
+                    Neem een 35 uren rijlessenpakket inclusief CBR tussentijdse toets en CBR praktijkexamen en betaal in 12 termijnen. <br>
+                    Zo houden we de rijlessen voor iedereen toegankelijk! <br>
+                    </div>
+                    <img src="assets/images/auto.jpeg" alt="auto" class="post">
+                </div>
 
-        <div class="block">
-            <div class="block_top">
-                <img src="assets/images/LOGO_STAL.png" alt="logo">
-                <p>STAL RIJOPLEIDING</p>
+                <div class="block">
+                    <div class="block_top">
+                        <img src="assets/images/LOGO_STAL.png" alt="logo">
+                        <p>STAL RIJOPLEIDING</p>
+                    </div>
+                    <div class="block_date">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="block_svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z"/><path fill="none" d="M0 0h24v24H0z"/></svg>
+                        <p>22 - 05 - 2019</p>
+                    </div>
+                    <div class="block_text">
+                    Onze nieuwe Facebook actie: Voor slechts 165,00 euro per maand je rijbewijs halen? <br> Nu kan het!
+                    Neem een 35 uren rijlessenpakket inclusief CBR tussentijdse toets en CBR praktijkexamen en betaal in 12 termijnen. <br>
+                    Zo houden we de rijlessen voor iedereen toegankelijk! <br>
+                    </div>
+                    <img src="assets/images/auto.jpeg" alt="auto" class="post">
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="svg" width="100px" height="100px" viewBox="0 0 24 24"><path d="M10 17l5-5-5-5v10z"/><path fill="none" d="M0 24V0h24v24H0z"/></svg>
             </div>
-            <div class="block_date">
-                <svg xmlns="http://www.w3.org/2000/svg" class="block_svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z"/><path fill="none" d="M0 0h24v24H0z"/></svg>
-                <p>22 - 05 - 2019</p>
+
+            <div class="extra-info">
+                <div class="info__blok">
+                        <h2>ENGLISH DRIVING LESSONS</h2>
+                        <p> We also provide English driving lessons. These will be given by Vincent. <br>
+                        A lesson package will include not only the lessons in English language, <br>
+                        but also the theory book will be in English, and on the exam Vincent will be the translator. <br>
+                        Dont hesitate to call  Vincent on 0634069716 for more information about English lessons <br>
+                        from start to finish, Or advice if you had a license in a foreign country and <br>
+                        are planning to get a Dutch driving license.</p>
+                </div>
+
+                <div class="info__blok2">
+                        <h2>VERDER NOG WAT PLUSPUNTEN OP EEN RIJTJE</h2> 
+                        <ul>
+                            <li>Theorie spoedcursus mogelijk met aansluitend theorie examen bij het CBR.</li>
+                            <li>De rijschool is prima verzekerd en maakt gebruikt van goed onderhouden, veilige en moderne lesauto's.</li>
+                            <li>Al jaren een bovengemiddeld slagingspercentage.</li>
+                            <li>Lessen 7 dagen per week van 8:00 - 21:00 (op vrijdag t/m zondag afwijkende tijden).</li>
+                            <li>Ook voor opfrislessen of 2todrive begeleiders.</li>
+                            <li>Ben je tevreden, vertel het anderen. Ben je niet tevreden, vertel het ons!</li>
+                            <li>Wij gaan zorgvuldig om met jouw persoonsgegevens.</li>
+                        </ul>
+                </div>
+
+                <div class="info__blok3">
+                        <h2>CONTACT</h2> 
+                        <p>Vragen of meer informatie? Bel of mail ons (bij geen gehoor a.u.b. voicemail inspreken)</p>
+                        <ul>
+                            <li>Krommenie</li>
+                            <li>06 - 26881416</li>
+                            <li>Info@stalrijopleiding.nl</li>
+                            <li>KvK-nummer: 54198437</li>
+                        </ul> 
+                </div>
             </div>
-            <div class="block_text">
-            Onze nieuwe Facebook actie: Voor slechts 165,00 euro per maand je rijbewijs halen? <br> Nu kan het!
-            Neem een 35 uren rijlessenpakket inclusief CBR tussentijdse toets en CBR praktijkexamen en betaal in 12 termijnen. <br>
-            Zo houden we de rijlessen voor iedereen toegankelijk! <br>
-            Bel, WhatsApp of email vandaag nog voor meer informatie en de voorwaarden!
-            </div>
-            <img src="assets/images/auto.jpeg" alt="auto" class="post">
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" class="svg" width="100px" height="100px" viewBox="0 0 24 24"><path d="M10 17l5-5-5-5v10z"/><path fill="none" d="M0 24V0h24v24H0z"/></svg>
     </div>
-
 </div>
 <?php include 'includes/footer.php'; ?>
 </body> 
