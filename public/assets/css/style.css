@@ -6,6 +6,10 @@
     text-decoration: none;
 }
 
+*:focus {
+    outline: none;
+}
+
 nav{
     display: flex;
     flex-direction: row;
@@ -135,7 +139,7 @@ nav a{
     background: rgba(255, 255, 255, 0.950);
     transform: translateX(100vw);
     transition: transform 0.5s ease;
-    z-index: 50;
+    z-index: 7777;
 }
 
 .nav-link {

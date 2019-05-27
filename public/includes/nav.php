@@ -27,7 +27,7 @@
             <a class="nav-link" href="/">LES AUTO</a>
             <a class="nav-link" href="http://localhost:8888/GitHub/Code/public/tarieven.php">TARIEVEN</a>
             <a class="nav-link" href="http://localhost:8888/GitHub/Code/public/todrive.php">2TODRIVE</a>
-            <a class="nav-link" href="/">LINKS</a>
+            <a class="nav-link" href="http://localhost:8888/GitHub/Code/public/links.php">LINKS</a>
             <a class="nav-link" href="http://localhost:8888/GitHub/Code/public/contact.php">CONTACT</a>
         </div>
     </div>

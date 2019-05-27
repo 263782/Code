@@ -117,7 +117,7 @@
                             <li>Wij gaan zorgvuldig om met jouw persoonsgegevens.</li>
                         </ul>
                 </div>
-
+                
                 <div class="info__blok3">
                         <h2>CONTACT</h2> 
                         <p>Vragen of meer informatie? Bel of mail ons (bij geen gehoor a.u.b. voicemail inspreken)</p>
