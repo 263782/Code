@@ -2,6 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="assets/css/todrive.css" />
+    <title>Stal Rijopleiding | 2 To Drive</title>
 </head>
 <body>
     <?php include 'includes/nav.php' ?>

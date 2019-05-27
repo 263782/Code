@@ -2,11 +2,10 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" media="screen" href="assets/css/contact.css" />
-<?php include 'includes/sendmail.php'; ?>
+<title>Stal Rijopleiding | Contact</title>
 </head>
 <body>
 <?php include 'includes/nav.php'; ?>
-
 <div class="contactphp">
     <div class="forms1">
         <div class="box">
@@ -38,9 +37,9 @@
             <a href="mailto:info@stalrijopleiding.nl">EMAIL</a>
             <a href="tel:+06-26881416">TELEFOON</a>
         </div>
-            
         </div>  
     </div>
+    <?php include 'includes/sendmail.php'; ?>
 </div>
 <script src="assets/js/contact.js"></script>
 <?php include 'includes/footer.php'; ?>

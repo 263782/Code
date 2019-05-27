@@ -2,6 +2,8 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/opleiding.css" />
+    <title>Stal Rijopleiding |  Opleiding</title>
+
 </head>
 <body>
     <?php include 'includes/nav.php'; ?>

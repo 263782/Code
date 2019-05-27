@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/links.css">
+    <title>Stal Rijopleiding | Links</title>
+
 </head>
 <body>
     <?php include 'includes/nav.php' ?> 
