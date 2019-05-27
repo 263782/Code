@@ -54,7 +54,13 @@
 
 .input:focus ~ label {
     font-size: 16px;
-    transform: translate(-5px, -15px);
+    transform: translate(-5px, -20px);
+}
+
+.has-value ~ label {
+    font-size: 16px;
+    transform: translate(-5px, -20px);
+    color: #237d98;
 }
 
 .input:focus ~ .input_underline {
@@ -107,4 +113,16 @@ h1 {
     transition: 0.5s;
 }
 
+.extras {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 175px;
+}
 
+.extras a{
+    color: #237d98;
+}
+
+.extras a:hover {
+    color: #555;
+}
