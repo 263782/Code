@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="assets/css/links.css">
 </head>
 <body>
-    <?php include 'includes/nav.php' ?>
-<div class="wrapper">
+    <?php include 'includes/nav.php' ?> 
+<div class="wrappers">
     <H1>LINKS</H1>
     <div class="videos">
         <div class="vid">
@@ -29,6 +29,16 @@
         <div class="vi">
             <h3>ZO GAAT HET BIJ HET CBR PRAKTIJK EXAMEN</h3>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/90DRSSl4QLw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="vidio">
+        <div class="vidi">
+            <h3 class="h3">ZO GAAT HET BIJ HET FAALANGSTEXAMEN VAN HET CBR</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ci3IKxP8gIA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="vidi">
+            <h3>ZO GAAT HET BIJ DE TUSSENTIJDSE TOETS VAN HET CBR</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/AuwVmShBw-A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
 </div>

@@ -64,14 +64,14 @@
 
 .contactphp{
     background-image: url("../images/background.png");
-    height: 200vh;
+    height: 180vh;
     color: #237d98;
     display: flex;
     justify-content: center;
 }
 
 .forms1{
-    padding-top: 200px;
+    padding-top: 300px;
     align-content: center;
 }
 
