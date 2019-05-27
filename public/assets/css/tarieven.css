@@ -5,12 +5,12 @@ p{
 .wrapper{
     padding-top: 200px;
     color: #237d98;
+    line-height: 1.5;
 }
 
 .tarieven{
-    background-image: url("../images/background.png");
     padding-top: 40px;
-     margin-bottom: 300px;
+    margin-bottom: 300px;
     height: 75vh;
     display: flex;
     flex-direction: row;
@@ -32,10 +32,10 @@ p{
     background-color: #237d98;
     border: none;
     color: rgb(255, 255, 255);
-    width: 200px;
-    height: 65px;
+    padding: 20px;
     border-radius: 12px;
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: 500;
     cursor: pointer;
     transition: 0.5s;
     margin-top: 60px;

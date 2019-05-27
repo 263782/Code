@@ -8,16 +8,25 @@
 <?php include 'includes/sendmail.php'; ?>
 <div class="contactphp">
     <div class="forms1">
-        <h1>CONTACT ONS</h1>
-        <form action="" method="post">
-            <input type="text" name="first_name" class="input" placeholder="Voornaam"><br>
-            <input type="text" name="last_name" class="input" placeholder="Achternaam"><br>
-            <input type="text" name="email" class="input" placeholder="Email"><br>
-            <br><textarea rows="5" name="message" cols="30" placeholder="Bericht"></textarea><br>
-            <input type="submit" name="submit" value="Submit">
-        </form>
-        <?php include 'includes/footer.php'; ?>
+        <div class="box">
+            <h1>CONTACT ONS</h1>
+            <form action="" method="post">
+                <div class="input-container"> <input type="text" name="first_name" class="input" placeholder="Voornaam">
+            </div>
+            <div class="input-container">
+                <input type="text" name="last_name" class="input" placeholder="Achternaam">
+            </div>
+            <div class="input-container">
+                <input type="text" name="email" class="input" placeholder="Email">
+            </div>
+            <div class="input-container">
+                <textarea rows="5" name="message" cols="30" placeholder="Bericht"></textarea>
+            </div>
+                <input type="submit" name="submit" class="button" value="Submit">
+            </form>
+    </div>  
     </div>
 </div>
+<?php include 'includes/footer.php'; ?>
 </body>
 </html>
