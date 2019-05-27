@@ -1,0 +1,19 @@
+.wrapper{
+    padding-top: 200px;
+    color: #237d98;
+}
+
+.wrapper h3 {
+    margin: 60px 0px 30px 0px;
+}
+
+.vid, .vi {
+    display: flex;
+    flex-direction: column;
+}
+
+.videos, .video {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 170px;
+}
