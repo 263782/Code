@@ -1,37 +1,14 @@
-# DEBRIEFING PROJECT MYBAND
-## DOOR MATTHIJS BERGHUIS
-
-
-
-### Matthijs Berghuis					Stal Rijopleiding
-### MD1A							Rijschool
-### Assendelft						Marcel Stal
-### Berghuismatthijs @gmail.com			www.stalrijschool.nl
-
 
 ## sprint 1
 http://26378.hosts2.ma-cloud.nl/code/public/
 
-
-
-*	Het bedrijf is Stal is een rijschool waar ik momenteel les.
-*	Er moet een goed functionele website worden gemaakt.
-*	het doel is om een nieuwe website voor Stal te maken.
-*	De opdrachtgever hoopt hiermee meer klanten binnen te kunnen halen.
-*	De doelgroep zijn beginnende mensen voor een rijles.
-*	De website moet er simpel maar functioneel uitzien, de klant ziet de link vaak op facebook voorbij komen en moet hierdoor makkelijk de nodige informatie kunnen binnenhalen. 
-*	De website voor 100% responsive voor elk toestel.
-*	Het budget is ongeveer 30 uur coderen.
-
-
-
 ## Stal rijopleiding
-www.mijnliveomgeving.com is een website van Matthijs Berghuis waar gebruikers kunnen kijken naar de rijschool bedoeld voor alle mensen zonder rijbewijs.
+http://www.stalrijopleiding.nl is een website van Matthijs Berghuis waar gebruikers kunnen kijken naar de rijschool bedoeld voor alle mensen zonder rijbewijs.
 De website is enigszins te vergelijken met https://saendrive.nl/ of https://www.rijschoolkeller.nl/ maar toch anders omdat ik een uniek posting systeem er in ga zetten.
 
 ### Uniek aan dit concept is: 
- * eerste u.s.p. (vul hier in, waarin jouw site anders is dan alle anderen)
- * tweede u.s.p. (vul hier in, waar jouw site door gaat opvallen, wat zal iedereen onthouden van jouw site?)
+ * eerste u.s.p. De website is gemaakt zonder Wordpress. 
+ * tweede u.s.p. Er komt een uniek posting systeem op zodat ze makkelijk hun aanbiedingen kunnen laten zien.
 
 ---
 #### Milestones 
@@ -67,11 +44,11 @@ Deze fase duurt 3 weken
 [Planning]: <doc/fase-1/planning.md>
 [Plan van Aanpak]: <doc/fase-1/plan-van-aanpak.md>
 [User stories]: <doc/fase-1/user-stories.md>
-[Design]: <doc/fase-1/design/design.md/>
-[FO]: </doc/fase-1/functioneel-ontwerp.md>
-[Flow]: <doc/fase-1/flow.svg>
+[Design]: <https://xd.adobe.com/spec/0cc827fb-d1ba-46dd-4535-9e143957e187-7af9/>
+[FO]: </https://xd.adobe.com/spec/0cc827fb-d1ba-46dd-4535-9e143957e187-7af9/>
+[Flow]: <https://xd.adobe.com/spec/0cc827fb-d1ba-46dd-4535-9e143957e187-7af9/>
 [Urenschatting]: <doc/fase-1/urenschatting.md>
-[axShare]: <http://w2d1bw.axshare.com/>
+[axShare]: <https://xd.adobe.com/spec/0cc827fb-d1ba-46dd-4535-9e143957e187-7af9//>
 
 #### Fase 2: Realiseren van de opdracht (in sprints)
 
@@ -82,9 +59,9 @@ Deze fase duurt 3 weken
 | B1-K1-W3 Technisch Ontwerp                        | TODO | [TO]                                 | Markdown of Word/RTF| |
 
 [Backlog]: </doc/fase-2/technisch-ontwerp.md>
-[TO]: </doc/fase-2/technisch-ontwerp.md>
-[Trello]: <https://trello.com/b/He6JX83u/myband-sprints>
-[Trello Tips]: <https://blog.trello.com/how-to-scrum-and-trello-for-teams-at-work>
+[TO]: <https://github.com/263782/Code/projects>
+[Trello]: <https://github.com/263782/Code/projects>
+[Trello Tips]: <https://github.com/263782/Code/projects>
    
 #### Fase 3: Testen en opleveren van het project
 
