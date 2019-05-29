@@ -1,0 +1,138 @@
+.bestel {
+    padding-top: 200px;
+    margin-left: 170px;
+    color: #237d98;
+    margin-bottom: 200px;
+}
+
+.input_left {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-text {
+    margin-right: 170px;
+}
+
+.dropdown {
+    max-width: 250px;
+    height: 40px;
+    width: 252px;
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+
+.msg-container {
+    width: 400px;
+    height: 200px;
+    align-items: flex-start;  
+    border-bottom: 1px solid #707070;
+    position: relative;
+    display: flex;
+    margin: 20px;
+}
+
+.input-container {
+    width: 250px;
+    height: 40px;
+    border-bottom: 1px solid #707070;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+
+.input{
+    border: none;
+    width: 100%;
+    height: 100%;
+    color: #666;
+    font-size: 18px;
+    padding: 0px 5px;
+    resize: none;
+}
+
+.input--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.input-container {
+    width: 250px;
+    height: 40px;
+    border-bottom: 1px solid #707070;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.input_label {
+    position: absolute;
+    left: 5px;
+    font-size: 18px;
+    color: #555;
+    transition: transform 200ms ease, font-size 200ms ease, color 200ms ease;
+    pointer-events: none;
+}
+
+.input_underline {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    background: #237d98;
+    width: 100%;
+    height: 2px;
+    transform-origin: right;
+    transform: scale(0.1);
+    transition: transform 200ms ease;
+}
+
+.input:focus ~ label {
+    font-size: 16px;
+    transform: translate(-5px, -20px);
+}
+
+.has-value ~ label {
+    font-size: 16px;
+    transform: translate(-5px, -20px);
+    color: #237d98;
+}
+
+.input:focus ~ .input_underline {
+    transform-origin: left;
+    transform: scale(1);
+}
+
+.stuff_bottom {
+    margin-left: 190px;
+}
+
+.button{
+    background-color: #237d98;
+    border: none;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 20px;
+}
+
+.button:hover{
+    background-color: #dc8368;
+    color: #fdfdfd;
+    transition: 0.5s;
+}
