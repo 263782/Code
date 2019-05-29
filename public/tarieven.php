@@ -3,7 +3,6 @@
 <head>
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/tarieven.css" />
     <title>Stal Rijopleiding | Tarieven</title>
-
 </head>
 <body>
     <?php include 'includes/nav.php'; ?>

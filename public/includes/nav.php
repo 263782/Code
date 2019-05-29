@@ -5,7 +5,7 @@
 </head>
 <body>
     <nav>
-       <a href="http://26378.hosts2.ma-cloud.nl/code/public">STAL RIJOPLEIDING</a>
+       <a href="http://localhost:8888/GitHub/Code/public">STAL RIJOPLEIDING</a>
         <img src="assets/images/LOGO_STAL.png" alt="logo">
         <form class="nav__form" style="margin: 0;" action="search" method="get">
                 <input class="nav__input" type="text" name="q" placeholder="ZOEKEN OP DE PAGINA" title="q" autocomplete="off" autocorrect="off" spellcheck="false" autocapitalize="none"/>
@@ -22,13 +22,12 @@
             <span class="nav-toggle-label-span-3"></span>
         </label>
         <div class="nav-links-container">
-            <a class="nav-link" href="http://26378.hosts2.ma-cloud.nl/code/public/ons.php">OVER ONS</a>
-            <a class="nav-link" href="http://26378.hosts2.ma-cloud.nl/code/public/opleiding.php">DE OPLEIDING</a>
-            <a class="nav-link" href="http://26378.hosts2.ma-cloud.nl/code/public/auto.php">LES AUTO</a>
-            <a class="nav-link" href="http://26378.hosts2.ma-cloud.nl/code/public/tarieven.php">TARIEVEN</a>
-            <a class="nav-link" href="http://26378.hosts2.ma-cloud.nl/code/public/todrive.php">2TODRIVE</a>
-            <a class="nav-link" href="http://26378.hosts2.ma-cloud.nl/code/public/links.php">LINKS</a>
-            <a class="nav-link" href="http://26378.hosts2.ma-cloud.nl/code/public/contact.php">CONTACT</a>
+            <a class="nav-link" href="http://localhost:8888/GitHub/Code/public/opleiding.php">DE OPLEIDING</a>
+            <a class="nav-link" href="http://localhost:8888/GitHub/Code/public/auto.php">LES AUTO</a>
+            <a class="nav-link" href="http://localhost:8888/GitHub/Code/public/tarieven.php">TARIEVEN</a>
+            <a class="nav-link" href="http://localhost:8888/GitHub/Code/public/todrive.php">2TODRIVE</a>
+            <a class="nav-link" href="http://localhost:8888/GitHub/Code/public/links.php">LINKS</a>
+            <a class="nav-link" href="http://localhost:8888/GitHub/Code/public/contact.php">CONTACT</a>
         </div>
     </div>
     </nav>

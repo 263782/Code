@@ -11,7 +11,7 @@
         <div class="box">
             <h1>CONTACT ONS</h1>
             <form action="" class="whip" method="post">
-                    <div class="input-container"> 
+                <div class="input-container"> 
                     <input type="text" id="firstname" name="first_name" class="input">
                     <label class="input_label" for="firstname">Voornaam</label>
                     <div class="input_underline"></div>
