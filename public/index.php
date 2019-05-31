@@ -29,7 +29,7 @@
         <p><i>Een proefles aanvragen?</i></p> <br>
         <form action="http://">
             <input class="uitleg__button" type="submit" value="KLIK DAN HIER"/>
-        </form> 
+        </form>  
     </div>
     <div class="meerinfo">
             <div class="blok">

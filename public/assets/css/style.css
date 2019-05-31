@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 1680px;
     text-decoration: none;
 }
 
@@ -26,8 +25,6 @@ nav{
 nav img{
     width: 50px;
     height: 40px;
-    margin-left: -110px;
-    margin-right: 500px;
 }
 
 nav a{
@@ -72,7 +69,7 @@ nav a{
     transform: translateY(-50%);
     background: rgba(255, 255, 255, 0.950);
     width: 30px;
-    height: 20px;
+    height: 20px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -176,6 +173,21 @@ nav a{
     border-radius: 12px;
 }
 
+@media screen and (max-width: 950px){
+    .nav__form {
+       display: none;
+    }
+    .stal {
+        margin-left: 20px;
+    }
+    .nav img {
+        margin: 0;
+     }
+     .stal_logo {
+         margin: 0;
+     }
+}
+
 .nav-link:hover::after {
     transform: scale(1,1);
 }
@@ -195,6 +207,7 @@ nav a{
 #nav-toggle:checked ~ .nav-toggle-label .nav-toggle-label-span-3 {
     transform: translateY(-15px) rotate(45deg);
 }
+
 .wrapper{
     margin-left: 170px;
 }
@@ -240,8 +253,7 @@ nav a{
     background-color: #237d98;
     border: none;
     color: rgb(255, 255, 255);
-    width: 250px;
-    height: 75px;
+    padding: 30px;
     margin-left: 170px;
     border-radius: 12px;
     font-size: 20px;
@@ -260,6 +272,29 @@ nav a{
     padding-top: 30vh;
     margin-left: 170px;
 }
+
+@media screen and (max-width: 950px){
+    .welkom__button {
+        margin-left: 20px;
+        padding: 20px;
+        font-size: 15px;
+    }
+
+    .welkom p {
+        margin-left: 20px;
+        font-size: 30px;
+    }
+
+    .welkom h1 {
+        margin-left: 20px;
+        font-size: 25px;
+    }
+
+    .welkom {
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.20)), url("../images/auto.png");
+        padding-bottom: 30px;
+    }
+} 
 
 .uitleg{
     padding-top: 125px;
