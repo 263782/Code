@@ -5,11 +5,11 @@
 </head>
 <body>
     <nav>
-    <div class="nav-links">
+<div class="nav-links">
        <a class="stal" href="http://localhost:8888/GitHub/Code/public">STAL RIJOPLEIDING</a>
         <img clas="stal_logo" src="assets/images/LOGO_STAL.png" alt="logo">
-    </div>
-    <div class="nav-rechts">
+</div>
+<div class="nav-rechts">
         <form class="nav__form" style="margin: 0;" action="search" method="get">
                 <input class="nav__input" type="text" name="q" placeholder="ZOEKEN OP DE PAGINA" title="q" autocomplete="off" autocorrect="off" spellcheck="false" autocapitalize="none"/>
                 <button type="submit" class="nav__search-btn">
@@ -33,7 +33,7 @@
             <a class="nav-link" href="http://localhost:8888/GitHub/Code/public/contact.php">CONTACT</a>
         </div>
     </div>
-    </div>
-    </nav>
+</div>
+</nav>
 </body>
 </html>
