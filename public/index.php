@@ -8,11 +8,8 @@
 <?php include 'includes/nav.php'; ?>
 <div class="wrapper">
     <div class="welkom">
-        <p>WELKOM BIJ</p>
-        <h1>STAL RIJOPLEIDING</h1>
-        <form action="http://">
-            <input class="welkom__button" type="submit" value="MEER INFORMATIE" />
-        </form>
+        <p>STAL RIJOPLEIDING</p>
+        <h1>DE SLEUTEL NAAR VEILIG EN ZELFSTANDIG AUTORIJDEN!</h1>
     </div>
     <div class="uitleg"> 
         <h1>Welkom op de website van Stal Rijopleiding!</h1> <br>
