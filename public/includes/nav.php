@@ -25,6 +25,7 @@
             <span class="nav-toggle-label-span-3"></span>
         </label>
         <div class="nav-links-container">
+            <a class="nav-link" href="http://localhost:8888/GitHub/Code/public/">HOME</a>
             <a class="nav-link" href="http://localhost:8888/GitHub/Code/public/opleiding.php">DE OPLEIDING</a>
             <a class="nav-link" href="http://localhost:8888/GitHub/Code/public/auto.php">LES AUTO</a>
             <a class="nav-link" href="http://localhost:8888/GitHub/Code/public/tarieven.php">TARIEVEN</a>

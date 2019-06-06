@@ -26,10 +26,9 @@
                 <p>€129,00</p>
                 <p>€25,00</p>
                 <p>€20,00</p>
-                <form action="http://">
-                <input class="button" type="submit" value="SELECTEER EEN PAKKET"/>
-            </form>
+             
             </div>
+            
             <div class="pakketen">
                 <p>Proefles (45 minuten).</p>
                 <p>Les (60 minuten).</p>
@@ -47,8 +46,12 @@
                 <p>Traffic manual passenger car (theorieboek Engelstalig).</p>
                 <p>Pre-exam test passenger car (oefenexamens Engelstalig).</p>
                 <p>Opfriscursus: Op aanvraag!</p>
+                <form action="http://localhost:8888/GitHub/Code/public/bestel.php">
+                    <input class="button" type="submit" value="SELECTEER EEN PAKKET"/>
+                </form>
             </div>
         </div>
+       
     </div>
     <?php include 'includes/footer.php';?>
 </body>

@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Stal Rijopleiding</title>
+    
 </head>
 <body>
 <?php include 'includes/nav.php'; ?>
