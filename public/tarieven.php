@@ -6,7 +6,7 @@
 </head>
 <body>
     <?php include 'includes/nav.php'; ?>
-    <div class="wrapper">
+    <div class="PenP">
         <h1>PAKKETTEN EN PRIJZEN</h1>
         <h3>TARIEVEN</h3>
         <div class="tarieven">
@@ -46,6 +46,28 @@
                 <p>Traffic manual passenger car (theorieboek Engelstalig).</p>
                 <p>Pre-exam test passenger car (oefenexamens Engelstalig).</p>
                 <p>Opfriscursus: Op aanvraag!</p>
+                <form action="http://localhost:8888/GitHub/Code/public/bestel.php">
+                    <input class="button" type="submit" value="SELECTEER EEN PAKKET"/>
+                </form>
+            </div>
+            <div class="pakkettenli">
+            <ul>
+                <li>Proefles (45 minuten).</li>
+                <li>Les (60 minuten).</li>
+                <li>5 lessen van 60 minuten.</li>
+                <li>Pakket 25 lessen incl. 1 praktijkexamen en gratis Itheorie of theorieboekpakket.</li>
+                <li>Pakket 35 lessen incl. 1 praktijkexamen en gratis Itheorie of theorieboekpakket.</li>
+                <li>Pakket 35 lessen incl. CBR tussentijdse toets, 1 praktijkexamen en gratis Itheorie of theorieboekpakket.</li>
+                <li>CBR tussentijdse toets.</li>
+                <li>Praktijkexamen.</li>
+                <li>Herexamen.</li>
+                <li>Theorieboekenpakket zelfstudie ( theorieboek,10 uren oefenexamens).</li>
+                <li>Itheorie, een complete theoriecursus via internet inclusief praktijkfilmpjes, deeltoetsen en heel veel oefenexamens.</li>
+                <li>Theoriespoedcursus (via onze partner) met aansluitend  theorie examen bij CBR.</li>
+                <li>Traffic manual passenger car (theorieboek Engelstalig).</li>
+                <li>Pre-exam test passenger car (oefenexamens Engelstalig).</li>
+                <li>Opfriscursus: Op aanvraag!</li>
+                </ul>
                 <form action="http://localhost:8888/GitHub/Code/public/bestel.php">
                     <input class="button" type="submit" value="SELECTEER EEN PAKKET"/>
                 </form>

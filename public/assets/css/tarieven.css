@@ -1,11 +1,9 @@
-p{
-    font-size: 17px;
-}
 
-.wrapper{
+.PenP{
     padding-top: 200px;
     color: #237d98;
     line-height: 1.5;
+    margin-left: 170px;
 }
 
 .tarieven{
@@ -23,9 +21,17 @@ p{
     float: left;
 }
 
+.prijzen p {
+    font-size: 18px;
+}
+
 .pakketen {
     margin-top: 100px;
     margin-left: 40px;
+}
+
+.pakketen p {
+    font-size: 18px;
 }
 
 .button{
@@ -50,4 +56,38 @@ p{
 footer{
     padding-top: 40px;
     margin-top: -200px;
+}
+
+.pakkettenli {
+    display: none;
+}
+
+@media screen and (max-width: 1100px){ 
+    .PenP {
+        margin-left: 50px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    .prijzen p {
+        font-size: 40px;
+    }
+
+    .pakketen p {
+        font-size: 30px;
+    }
+
+    .pakketen {
+        display: none;
+    }
+
+    .pakkettenli {
+        display: unset;
+    }
 }
