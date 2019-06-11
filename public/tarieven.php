@@ -46,29 +46,28 @@
                 <p>Traffic manual passenger car (theorieboek Engelstalig).</p>
                 <p>Pre-exam test passenger car (oefenexamens Engelstalig).</p>
                 <p>Opfriscursus: Op aanvraag!</p>
-                <form action="http://localhost:8888/GitHub/Code/public/bestel.php">
+                <form action="bestel.php">
                     <input class="button" type="submit" value="SELECTEER EEN PAKKET"/>
                 </form>
             </div>
-            <div class="pakkettenli">
-            <ul>
-                <li>Proefles (45 minuten).</li>
-                <li>Les (60 minuten).</li>
-                <li>5 lessen van 60 minuten.</li>
-                <li>Pakket 25 lessen incl. 1 praktijkexamen en gratis Itheorie of theorieboekpakket.</li>
-                <li>Pakket 35 lessen incl. 1 praktijkexamen en gratis Itheorie of theorieboekpakket.</li>
-                <li>Pakket 35 lessen incl. CBR tussentijdse toets, 1 praktijkexamen en gratis Itheorie of theorieboekpakket.</li>
-                <li>CBR tussentijdse toets.</li>
-                <li>Praktijkexamen.</li>
-                <li>Herexamen.</li>
-                <li>Theorieboekenpakket zelfstudie ( theorieboek,10 uren oefenexamens).</li>
-                <li>Itheorie, een complete theoriecursus via internet inclusief praktijkfilmpjes, deeltoetsen en heel veel oefenexamens.</li>
-                <li>Theoriespoedcursus (via onze partner) met aansluitend  theorie examen bij CBR.</li>
-                <li>Traffic manual passenger car (theorieboek Engelstalig).</li>
-                <li>Pre-exam test passenger car (oefenexamens Engelstalig).</li>
-                <li>Opfriscursus: Op aanvraag!</li>
-                </ul>
-                <form action="http://localhost:8888/GitHub/Code/public/bestel.php">
+            <div class="pakkettenmo">
+                <p><b>€0</b> Proefles (45 minuten).</p>
+                <p><b>€45,00</b> Les (60 minuten).</p>
+                <p><b>€222,50</b>   5 lessen van 60 minuten.</p>
+                <p><b>€440,00</b> 10 lessen van 60 minuten.</p>
+                <p><b>€1310,00</b> Pakket 25 lessen incl. 1 praktijkexamen en gratis Itheorie of theorieboekpakket.</p>
+                <p><b>€1750,00</b> Pakket 35 lessen incl. 1 praktijkexamen en gratis Itheorie of theorieboekpakket.</p>
+                <p><b>€1925,00</b> Pakket 35 lessen incl. CBR tussentijdse toets, 1 praktijkexamen en gratis Itheorie of theorieboekpakket.</p>
+                <p><b>€198,00</b> CBR tussentijdse toets.</p>
+                <p><b>€220,00</b> Praktijkexamen.</p>
+                <p><b>€205,00</b> Herexamen.</p>
+                <p><b>€30,00</b> Theorieboekenpakket zelfstudie ( theorieboek,10 uren oefenexamens).</p>
+                <p><b>€30,00</b> Itheorie, een complete theoriecursus via internet inclusief praktijkfilmpjes, deeltoetsen en heel veel oefenexamens.</p>
+                <p><b>€129,00</b> Theoriespoedcursus (via onze partner) met aansluitend  theorie examen bij CBR.</p>
+                <p><b>€25,00</b> Traffic manual passenger car (theorieboek Engelstalig).</p>
+                <p><b>€20,00</b> Pre-exam test passenger car (oefenexamens Engelstalig).</p>
+                <p>Opfriscursus: Op aanvraag!</p>
+                <form action="bestel.php">
                     <input class="button" type="submit" value="SELECTEER EEN PAKKET"/>
                 </form>
             </div>
