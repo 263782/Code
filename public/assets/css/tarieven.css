@@ -58,7 +58,7 @@ footer{
     margin-top: -200px;
 }
 
-.pakkettenli {
+.pakkettenmo {
     display: none;
 }
 
@@ -87,7 +87,18 @@ footer{
         display: none;
     }
 
-    .pakkettenli {
+    .prijzen {
+        display: none;
+    }
+
+    .button {
+        font-size: 30px;
+        padding: 30px;
+    }
+    .pakkettenmo {
         display: unset;
+        margin-left: 170px;
+        font-size: 30px;
+        width: 875px;
     }
 }
