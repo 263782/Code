@@ -1,7 +1,6 @@
 .wrappers{
     padding-top: 200px;
     color: #237d98;
-    background-image: url("../images/background.png");
     height: 100vw;
 }
 
@@ -28,9 +27,22 @@ h1 {
 }
 
 .vi {
-    color: #fff;
+    color: #237d98;
 }
 
 .h3 {
-    color: #fff;
+    color: #237d98;
+}
+
+@media screen and (max-width: 1100px){ 
+
+    .wrappers {
+        height: 175vh;
+    }
+
+    .videos, .video, .vidio {
+        display: unset;
+        justify-content: unset;
+        padding-right: none;
+    }
 }

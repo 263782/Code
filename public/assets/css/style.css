@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -14,7 +14,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     width: 100vw;
-    box-shadow: 0px -1px 8px;
+    box-shadow: 0px 3px 8px -8px #000;
     padding: 10px 0px;
     margin: 0;
     position: fixed;
@@ -136,7 +136,7 @@ nav a {
 .nav-links-container {
     position: fixed;
     top: 65px;
-    right: 0;
+    right: 1px;
     bottom: 50px;
     width: 100vw;
     height: 100vh;
@@ -319,9 +319,18 @@ nav a {
     }
 
     .welkom {
-        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.20)), url("../images/car2.jpg");
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.20)), url("../images/auto-website.jpeg");
         padding-bottom: 30px;
         height: 60vh;
+        background-size: cover;
+        background-position: center center;
+        background-color: #000;
+        margin-left: -170px;
+        color: #fff;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 } 
 
@@ -586,6 +595,7 @@ nav a {
         height: 500px;
         width: 500px;
     }
+
     .info__blok, .info__blok2, .info__blok3 h2{
         font-size: 30px;
      }
@@ -667,4 +677,26 @@ footer p{
     footer h2 {
         font-size: 30px;
     }
+}
+
+#instafeed {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-size: cover;
+    width: 75%;
+    height: auto;   
+}
+
+.insta img {
+    width: 350px;
+    height: 350px;
+    background-size: cover;
+    background-position: center center;
+    margin: 35px 35px;
+}
+
+.wrapperinsta {
+    width: 100%;
+    height: 40vh;
 }
