@@ -6,6 +6,10 @@
 <script src="assets/js/custom.js"></script>
 <?php $this->stop('footer-scripts')?>
 
+<?php $this->start('title')?>
+<title>Stal Rijopleiding</title>
+<?php $this->stop('title')?>
+
 <div class="wrapper">
     <div class="welkom">
         <p>STAL RIJOPLEIDING</p>

@@ -4,6 +4,10 @@
 <link rel="stylesheet" type="text/css" media="screen" href="<?php echo url('/assets/css/todrive.css')?>" />
 <?php $this->stop('css')?>
 
+<?php $this->start('title')?>
+<title>Stal Rijopleiding | 2 To Drive</title>
+<?php $this->stop('title')?>
+
 <div class="todrive">
         <h1>2 TO DRIVE</h1>
         <p>Vanaf <b>1 november 2011</b> is het mogelijk om te starten met rijlessen wanneer je <b>16,5</b> jaar bent. <br>

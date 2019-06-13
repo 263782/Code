@@ -4,6 +4,10 @@
 <link rel="stylesheet" type="text/css" media="screen" href="<?php echo url('/assets/css/links.css')?>" />
 <?php $this->stop('css')?>
 
+<?php $this->start('title')?>
+<title>Stal Rijopleiding | Links</title>
+<?php $this->stop('title')?>
+
 <div class="wrappers">
     <H1>LINKS</H1>
     <div class="videos">

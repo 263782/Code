@@ -4,6 +4,10 @@
 <link rel="stylesheet" type="text/css" media="screen" href="<?php echo url('/assets/css/contact.css')?>" />
 <?php $this->stop('css')?>
 
+<?php $this->start('title')?>
+<title>Stal Rijopleiding | Contact</title>
+<?php $this->stop('title')?>
+
 <div class="contactphp">
     <div class="forms1">
         <div class="box">

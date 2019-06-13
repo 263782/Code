@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" href="assets/css/style.css">
     <?php echo $this->section('css')?>
-    <title>Stal Rijopleiding | Tarieven</title>
+    <?php echo $this->section('title')?>
 </head>
 <body>
 <nav>

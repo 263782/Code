@@ -4,6 +4,10 @@
 <link rel="stylesheet" type="text/css" media="screen" href="<?php echo url('/assets/css/bestel.css')?>" />
 <?php $this->stop('css')?>
 
+<?php $this->start('title')?>
+<title>Stal Rijopleiding | Bestel</title>
+<?php $this->stop('title')?>
+
 <div class="bestel">
     <h1>BESTELLEN VAN EEN PAKKET</h1>
     <form action="" class="whip" method="post">

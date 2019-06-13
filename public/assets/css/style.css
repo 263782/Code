@@ -685,7 +685,9 @@ footer p{
     flex-wrap: wrap;
     background-size: cover;
     width: 75%;
-    height: auto;   
+    height: auto;  
+    margin-top: 100px;
+    margin-left: 170px; 
 }
 
 .insta img {
@@ -694,6 +696,11 @@ footer p{
     background-size: cover;
     background-position: center center;
     margin: 35px 35px;
+}
+
+.insta img:hover {
+    opacity: 0.5;
+    transition: 0.3s ease-in-out;
 }
 
 .wrapperinsta {

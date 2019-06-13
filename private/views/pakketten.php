@@ -4,6 +4,10 @@
 <link rel="stylesheet" type="text/css" media="screen" href="<?php echo url('/assets/css/tarieven.css')?>" />
 <?php $this->stop('css')?>
 
+<?php $this->start('title')?>
+<title>Stal Rijopleiding | Pakketten</title>
+<?php $this->stop('title')?>
+
 <div class="PenP">
         <h1>PAKKETTEN EN PRIJZEN</h1>
         <h3>TARIEVEN</h3>
