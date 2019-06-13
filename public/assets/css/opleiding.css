@@ -53,3 +53,56 @@ footer{
     margin-left: 170px;
     margin-top: -700px;
 }
+
+.textmobile {
+    display: none;
+}
+
+@media screen and (max-width: 1100px){ 
+    p {
+        margin-left: 50px;
+        font-size: 30px;
+        height: 100%;
+        margin-right: 50px;
+    }
+
+    .theorie {
+        background-image: none;
+    }
+
+    .praktijk {
+        display: none;
+    }
+
+    .theorie h1{
+        margin-left: 50px;
+        font-size: 50px;
+    }
+
+    .theorie h2 {
+        font-size: 40px;
+        margin-left: 50px;
+    }
+
+    .theorie p  {
+        padding: 0;
+        margin-left: 50px;
+   }
+
+    .praktijktwee {
+        display: none;
+    }
+   
+    .textmobile {
+        display: unset;
+        font-size: 30px;
+        color: #237d98;
+        height: 100vh;
+    }
+
+    .textmobile h2 {
+        margin-left: 50px;
+    }
+
+}
+
