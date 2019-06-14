@@ -29,7 +29,6 @@
         <div class="nav-links-container">
             <a class="nav-link" href="<?php echo url('/')?>">HOME</a>
             <a class="nav-link" href="<?php echo url('/opleiding')?>">DE OPLEIDING</a>
-            <a class="nav-link" href="<?php echo url ('/lesauto')?>">LES AUTO</a>
             <a class="nav-link" href="<?php echo url('/pakketten')?>">TARIEVEN</a>
             <a class="nav-link" href="<?php echo url('/drive')?>">2TODRIVE</a>
             <a class="nav-link" href="<?php echo url('/links')?>">LINKS</a>
