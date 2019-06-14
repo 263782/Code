@@ -19,7 +19,7 @@
 }
 
 .todrive p {
-    color: #237d98;
+    color: #237d98; 
     font-size: 19px;
 }
 
@@ -37,11 +37,65 @@
     color: #ffffff;
 }
 
+.img2 {
+    display: none;
+}
+
 @media screen and (max-width: 1100px){
-    
-    .todrive {
-        height: 100vh;
-        padding-left: 50px;
+    p {
+        height: 100%;
+        font-size: 30px;
     }
 
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .todrive {
+        height: 100%;
+        padding-left: 50px;
+        margin-right: 50px;
+        background-image: none; 
+    }
+
+    .todrive img {
+        width: 300px;
+        padding-top: 0px;
+        padding-right: 0px;
+        align-self: center;
+    }
+
+    .todrive h1 {
+        font-size: 50px;
+    }
+
+    .todrive_info p {
+        color: #237d98;
+    }
+
+    .todrive_info {
+        margin-top: 100px;
+    }
+    
+    .todrive p {
+        font-size: 30px;
+    }
+
+    .todrive_info h2 {
+        color: #237d98;
+        font-size: 35px;
+    }
+
+    .footer {
+        margin-top: 500px;
+    }
+
+    .img1 {
+        display: none;
+    }
+
+    .img2 {
+        display: unset;
+    }
 }
