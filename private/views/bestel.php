@@ -47,6 +47,25 @@
                 <label class="input_label" for="leeftijd">Leeftijd</label>
                 <div class="input_underline"></div>
             </div>
+            <select class="dropdown2" require>
+                <option value="">-------------</option>
+                <option value="">Proefles (45 minuten).</option>
+                <option value="">Les (60 minuten).</option>
+                <option value="">5 lessen van 60 minuten.</option>
+                <option value="">10 lessen van 60 minuten.</option>
+                <option value="">Pakket 25 lessen</option>
+                <option value="">Pakket 35 lessen</option>
+                <option value="">Pakket 35 lessen incl.</option>
+                <option value="">CBR tussentijdse toets.</option>
+                <option value="">Praktijkexamen.</option>
+                <option value="">Herexamen.</option>
+                <option value="">Theorieboekenpakket zelfstudie</option>
+                <option value="">Itheorie, een complete theoriecursus</option>
+                <option value="">Theoriespoedcursus</option>
+                <option value="">Traffic manual passenger car</option>
+                <option value="">Pre-exam test passenger car.</option>
+                <option value="">Opfriscursus: Op aanvraag!</option>
+        </select> 
         </div>
         <div class="input-text">
             <div class="msg-container">
