@@ -71,4 +71,14 @@
         rijexamen bij het <b>CBR</b> en kun je daarna zelfstandig de weg op!
         </p>
     </div>
+
+    <div class="dauto">
+    <h2>DE AUTO</h2> <br> <br>
+    <p>Je krijgt les in een luxe, comfortabele en moderne lesauto. <br> 
+    Voorzien van alle belangrijke veiligheidsvoorzieningen.  <br> 
+    In de zomer heb je weinig last van de warmte vanwege de airconditioning. <br> 
+    Je zit comfortabel in de verstelbare bestuurdersstoel. <br> 
+    Je zit- en stuurhouding zijn volledig af te stemmen op jouw voorkeuren!</p>
+    </div>
+    <img class="autoimg" src="assets/images/car3.jpg" alt="fgg">
 </div>

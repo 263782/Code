@@ -307,7 +307,8 @@ nav a {
     margin-left: 170px;
 }
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1100px) {
+
     .welkom p {
         margin-left: 50px;
         font-size: 72px;
@@ -319,13 +320,9 @@ nav a {
     }
 
     .welkom {
-        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.20)), url("../images/auto-website.jpeg");
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.20)), url("../images/auto-mobiel.png");
         padding-bottom: 30px;
         height: 60vh;
-        background-size: cover;
-        background-position: center center;
-        background-color: #000;
-        margin-left: -170px;
         color: #fff;
         background-attachment: fixed;
         background-position: center;
@@ -389,6 +386,7 @@ nav a {
 .blok svg{
     width: 150px;
     height: 150px;
+    fill: rgb(0, 0, 0);
 }
 
 .blok h2{
@@ -542,6 +540,7 @@ nav a {
         font-size: 30px;
         padding: 20px;
         border-radius: 50px;
+        white-space: nowrap;
     }
 
     .posts {
@@ -611,7 +610,7 @@ nav a {
         height: 10px;
     }
 
-    .background-fix,.background2, .welkom, .meerinfo {
+    .background-fix,.background2, .meerinfo {
         background-image: none;
     }
 }
