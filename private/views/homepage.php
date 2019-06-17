@@ -28,33 +28,26 @@
         We hebben tevens een ruime ervaring in het lesgeven <br>
         aan mensen met een vorm van <b><i>autisme</i></b>.</p> <br>
         <p><i>Een proefles aanvragen?</i></p> <br>
-        <form action="http://">
+        <form action="<?php echo url('/opleiding')?>">
             <input class="uitleg__button" type="submit" value="KLIK DAN HIER"/>
         </form>  
     </div>
     <div class="meerinfo">
             <div class="blok">
                 <h2>DE OPLEIDING</h2>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M14 17H4v2h20v-2zm6-8H4v2h16V9zM4 15h16v-2H4v2zM4 5v2h16V5H4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>                <form action="http://">
-                    <form action="<?php echo url('/opleiding')?>">
-                    <input class="uitleg__button" type="submit" value="MEER INFORMATIE"/>
-                </form> 
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24"><defs><path id="a" d="M0 0h24v24H0V0z"/></defs><clipPath id="b"><use xlink:href="#a" overflow="visible"/></clipPath><path clip-path="url(#b)" d="M21 5c-1.11-.35-2.33-.5-3.5-.5-1.95 0-4.05.4-5.5 1.5-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6v14.65c0 .25.25.5.5.5.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.3 4.75 1.05.1.05.15.05.25.05.25 0 .5-.25.5-.5V6c-.6-.45-1.25-.75-2-1zm0 13.5c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V8c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5v11.5z"/></svg>                <a class="uitleg__button" href="<?php echo url('/opleiding')?>">MEER INFORMATIE</a>
             </div>
 
             <div class="blok">
-                <h2>DE AUTO</h2>
+                <h2>2 TO DRIVE</h2>
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>                <form action="http://">
-                <form action="/opleiding">
-                    <input class="uitleg__button" type="submit" value="MEER INFORMATIE"/>
-                </form> 
+                    <a class="uitleg__button" href="<?php echo url('/opleiding')?>">MEER INFORMATIE</a>
             </div>
 
             <div class="blok">
                 <h2>TARIEVEN</h2>
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M15 18.5c-2.51 0-4.68-1.42-5.76-3.5H15v-2H8.58c-.05-.33-.08-.66-.08-1s.03-.67.08-1H15V9H9.24C10.32 6.92 12.5 5.5 15 5.5c1.61 0 3.09.59 4.23 1.57L21 5.3C19.41 3.87 17.3 3 15 3c-3.92 0-7.24 2.51-8.48 6H3v2h3.06c-.04.33-.06.66-.06 1 0 .34.02.67.06 1H3v2h3.52c1.24 3.49 4.56 6 8.48 6 2.31 0 4.41-.87 6-2.3l-1.78-1.77c-1.13.98-2.6 1.57-4.22 1.57z"/><path fill="none" d="M0 0h24v24H0z"/></svg>                <form action="http://">
-                <form action="<?php echo url('/tarieven')?>">
-                    <input class="uitleg__button" type="submit" value="MEER INFORMATIE"/>
-                </form> 
+                    <a class="uitleg__button" href="<?php echo url('/tarieven')?>">MEER INFORMATIE</a>
             </div>
     </div>
     <div class="background2">
