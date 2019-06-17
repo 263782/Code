@@ -1,2 +1,3 @@
 .DS_Store
 private/includes/config.php
+private/includes/config.online.php
