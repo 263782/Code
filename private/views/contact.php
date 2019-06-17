@@ -12,15 +12,15 @@
     <div class="forms1">
         <div class="box">
             <h1>CONTACT ONS</h1>
-            <form action="" class="whip" method="post">
+            <form action="./includes/sendmail.php" class="whip" method="post">
                 <div class="input-container"> 
-                    <input type="text" id="firstname" name="first_name" class="input" required>
-                    <label class="input_label" for="firstname">Voornaam</label>
+                    <input type="text" id="name" name="name" class="input" required>
+                    <label class="input_label" for="firstname">Naam</label>
                     <div class="input_underline"></div>
                 </div>
                 <div class="input-container">
-                    <input type="text" name="last_name" id="lastname" class="input" required>
-                    <label class="input_label" for="lastname">Achternaam</label>
+                    <input type="text" name="subject" id="subject" class="input" required>
+                    <label class="input_label" for="subject">Onderwerp</label>
                     <div class="input_underline"></div>
                 </div>
                 <div class="input-container">
