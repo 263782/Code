@@ -59,7 +59,7 @@ $router->map( 'GET', '/opleiding', 'OpleidingController#overview', 'opleiding-ov
 $router->map( 'GET', '/pakketten', 'PackageController#overview', 'pakketten-overzicht' );
 $router->map( 'GET', '/drive', 'DriveController#overview', 'drive-overzicht' );
 $router->map( 'GET', '/links', 'LinksController#overview', 'links-overzicht' );
-$router->map( 'GET', '/contact', 'ContactController#overview', 'contact-overzicht' );
+$router->map( 'GET|POST', '/contact', 'ContactController#overview', 'contact-overzicht' );
 $router->map( 'GET', '/bestel', 'BestelController#overview', 'bestel-overzicht' );
 // Daarna vragen we $router of de huidige URL getmatcht kan worden.
 $match = $router->match();

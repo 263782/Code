@@ -9,10 +9,10 @@ function getOpleiding() {
 function getLinks() {
 }
 
-function getContact(){
+function getContact() {
 }
 
-function getBestel(){
+function getBestel() {
 }
 
 function getPackages()

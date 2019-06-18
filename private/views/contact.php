@@ -8,11 +8,13 @@
 <title>Stal Rijopleiding | Contact</title>
 <?php $this->stop('title')?>
 
+<?php if (isset($_POST['mailsend'])) echo "mail nigger" ?>
+
 <div class="contactphp">
     <div class="forms1">
         <div class="box">
             <h1>CONTACT ONS</h1>
-            <form action="./includes/sendmail.php" class="whip" method="post">
+            <form action="<?php echo url('/contact')?>" class="whip" method="post">
                 <div class="input-container"> 
                     <input type="text" id="name" name="name" class="input" required>
                     <label class="input_label" for="firstname">Naam</label>
