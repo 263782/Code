@@ -10,7 +10,7 @@
 
 <div class="bestel">
     <h1>BESTELLEN VAN EEN PAKKET</h1>
-    <form action="" class="whip" method="post">
+    <form action="<?php echo url('/bestel')?>" class="whip" method="post">
     <div class="input--container">
         <div class="input_left">
             
@@ -47,7 +47,7 @@
                 <label class="input_label" for="leeftijd">Leeftijd</label>
                 <div class="input_underline"></div>
             </div>
-            <select class="dropdown2" require>
+            <select class="dropdown2" name="dropdown" require>
                 <option value="">-------------</option>
                 <option value="">Proefles (45 minuten).</option>
                 <option value="">Les (60 minuten).</option>

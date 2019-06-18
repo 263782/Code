@@ -6,26 +6,31 @@
  */
 class ContactController {
 
-	function overview(){
+	function overview() {
 
 		// Haal alle Opleidingen op uit de "model" laag.
 		$contact = getContact();
 
 		if (isset($_POST['subject'])) {
-			$name = $_POST['name'];
-			$subject = $_POST['subject'];
-			$email = $_POST['mail'];
-			$message = $_POST['message'];
+			$name = filter_var($_POST['name'] , FILTER_SANITIZE_STRING);
+			$subject = filter_var($_POST['subject'] , FILTER_SANITIZE_STRING);
+			$email = filter_var($_POST['mail'], FILTER_SANITIZE_EMAIL);
+			$message = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
+
+			$to = "berghuismatthijs@gmail.com";
+			//$headers = "From: $email" . "\r\n" .
+			"CC: berghuismatthijs@gmail.com";
+			$txt = $email."\n\nJe hebt een mailtje ontvangen van ".$name.".\n\n".$message;
 		
-			$mailTo = "berghuismatthijs@gmail.com";
-			$headers = "Door: ".$mailFrom;
-			$txt = "Je hebt een mailtje ontvangen van ".$name.".\n\n".$message;
-		
-			if (!mail($mailTo, $subject, $text, $headers)) {
-				exit;
+			if (mail($to, $subject, $txt)) {
+				echo "email send";
+				die();
+			} else {
+				echo "failed to send email";
+				die();
 			}
 
-			header("Location: /code/public/contact?send");
+			header("Location: /Github/code/public/contact?send");
 		}
 
 

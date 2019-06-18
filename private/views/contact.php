@@ -8,8 +8,6 @@
 <title>Stal Rijopleiding | Contact</title>
 <?php $this->stop('title')?>
 
-<?php if (isset($_POST['mailsend'])) echo "mail nigger" ?>
-
 <div class="contactphp">
     <div class="forms1">
         <div class="box">
