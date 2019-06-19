@@ -20,7 +20,7 @@ class ContactController {
 			$to = "berghuismatthijs@gmail.com";
 			//$headers = "From: $email" . "\r\n" .
 			"CC: berghuismatthijs@gmail.com";
-			$txt = $email."\n\nJe hebt een mailtje ontvangen van ".$name.".\n\n".$message;
+			$txt = $email."\n\nJe hebt een mailtje ontvangen van ".$name.$email.".\n\n".$message;
 		
 			if (mail($to, $subject, $txt)) {
 				echo "email send";

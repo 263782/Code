@@ -8,7 +8,7 @@
 <title>Stal Rijopleiding | Links</title>
 <?php $this->stop('title')?>
 
-<div class="wrappers">
+<div class="wrapperz">
     <H1>LINKS</H1>
     <div class="videos">
         <div class="vid">

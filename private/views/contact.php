@@ -36,9 +36,9 @@
                     <input type="submit" name="submit" class="button " value="VERSTUUR">
             </form>
             <div class="extras">
-            <a href="mailto:info@stalrijopleiding.nl">EMAIL</a>
-            <a href="tel:+06-26881416">TELEFOON</a>
-        </div>
+                <a href="mailto:info@stalrijopleiding.nl">EMAIL</a>
+                <a href="tel:+06-26881416">TELEFOON</a>
+            </div>
         </div>  
     </div>
     <?php include 'includes/sendmail.php'; ?>

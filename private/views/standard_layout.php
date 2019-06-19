@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/style.css">
     <?php echo $this->section('css')?>
     <?php echo $this->section('title')?>
@@ -9,7 +12,7 @@
 <nav>
 <div class="nav-links">
        <a class="stal" href="<?php echo url('/')?>">STAL RIJOPLEIDING</a>
-        <img clas="stal_logo" src="<?php echo url('/assets/images/LOGO_STAL.png')?>" alt="logo">
+       <a href="<?php echo url('/')?>"><img clas="stal_logo" src="<?php echo url('/assets/images/LOGO_STAL.png')?>" alt="logo"></a>
 </div>
 <div class="nav-rechts">
         <form class="nav__form" style="margin: 0;" action="search" method="get">

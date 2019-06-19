@@ -46,7 +46,7 @@
                 <input type="text" name="Leeftijd" id="leeftijd" class="input" required> 
                 <label class="input_label" for="leeftijd">Leeftijd</label>
                 <div class="input_underline"></div>
-            </div>
+            </div> 
             <select class="dropdown2" name="dropdown" require>
                 <option value="">-------------</option>
                 <option value="">Proefles (45 minuten).</option>

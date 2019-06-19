@@ -20,13 +20,14 @@ nav {
     position: fixed;
     background-color: rgba(255, 255, 255, 0.950);
     z-index: 9999;
+    width: 100%;
 }
 
 nav img{ 
     height: 40px;
 }
 
-nav a {
+nav .stal {
     color: #237d98;
     font-size: 35px;
     font-weight: bold;
@@ -138,8 +139,8 @@ nav a {
     top: 65px;
     right: 1px;
     bottom: 50px;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -184,27 +185,30 @@ nav a {
     border-radius: 12px;
 }
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 500px){
     .nav__form {
        display: none;
     }
 
     .nav-link {
-        font-size: 70px;
+        font-size: 30px;
         font-weight: 400;
+        margin: 7px 0px;
+        padding: 15px;
     }
 
     .nav-links-container {
-        top: 119px;
+        top: 85px;
+        right: 0;
     }
 
-    .stal {
-        margin-left: 50px;
-        font-size: 50px;
+    nav .stal {
+        display: none;
     }
 
     nav img {
         height: 50px;
+        margin-left: 50px;
      }
 
      .nav a {
@@ -216,7 +220,7 @@ nav a {
      }
 
      .nav-links {
-        margin-top: 25px;
+        margin-top: 15px;
      }
 
      .nav-rechts {
@@ -224,11 +228,11 @@ nav a {
      }
 
      nav {
-        height: 100px;
+        height: 75px;
      }
 
      .nav-toggle-label {
-        margin: 25px 0px 0px 0px;
+        margin: 15px 0px 0px 0px;
      }
 }
 
@@ -307,16 +311,16 @@ nav a {
     margin-left: 170px;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 500px) {
 
     .welkom p {
         margin-left: 50px;
-        font-size: 72px;
+        font-size: 36px;
     }
 
     .welkom h1 {
         margin-left: 50px;
-        font-size: 25px;
+        font-size: 12px;
     }
 
     .welkom {
@@ -337,20 +341,20 @@ nav a {
 }
 
 .uitleg h1{
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .uitleg p{
-    font-size: 23px;
+    font-size: 10px;
 }
 
 .uitleg__button{
     background-color: #237d98;
     border: none;
     color: #fff;
-    padding: 15px;
+    padding: 10px;
     border-radius: 12px;
-    font-size: 18px;
+    font-size: 14px;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -396,7 +400,7 @@ nav a {
 .background2{
     background-image: url("../images/background2.png");
     padding-top: 40px;
-    margin-left: -170px;
+    margin-left: -220px;
     padding-bottom: 325px;
 }
 
@@ -521,26 +525,21 @@ nav a {
 
  .info__blok2 li, .info__blok3 li {
     margin: 5px 30px;
+    font-size: 10px;
 }
 
 .info__blok h2, .info__blok2 h2, .info__blok3 h2{
     padding: 20px 30px;
 }
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 500px){
+
     .uitleg {
         margin: 0px 50px 0px -120px;
     }
 
     .uitleg p {
-        font-size: 15px;
-    }
-
-    .uitleg__button {
-        font-size: 30px;
-        padding: 20px;
-        border-radius: 50px;
-        white-space: nowrap;
+        font-size: 10px;
     }
 
     .posts {
@@ -549,30 +548,30 @@ nav a {
     }
 
     .blok {
-        width: 500px;
-        height: 500px;
+        width: 275px;
+        height: 275px;
         margin-top: 100px;
         margin-bottom: 0px;
         background-color: #fff;
         box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.10);
-        margin-left: 220px;
+        margin-left: 50px;
     }
 
     .blok h2 {
         padding-top: 30px;
-        font-size: 50px;
+        font-size: 20px;
     }
 
     .blok svg {
-        width: 300px;
-        height: 300px;
+        width: 150px;
+        height: 150px;
     }
 
     .meerinfo {
         margin-top: 100px;
         flex-direction: column;
         align-self: center;
-        height: 125vh;
+        height: 100%;
     }
 
     .extra-info {
@@ -581,38 +580,39 @@ nav a {
     }
 
     .info__blok {
-        width: 500px;
-        height: 660px;
+        width: 275px;
+        height: 100%;
     }
 
     .info__blok2 {
-        height: 790px;
-        width: 500px;
+        width: 275px;
+        height: 100%;
     }
 
     .info__blok3 {
-        height: 500px;
-        width: 500px;
+        width: 275px;
+        height: 100%;
     }
 
     .info__blok, .info__blok2, .info__blok3 {
-        font-size: 30px;
+        font-size: 20px;
         box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.10);
-
      }
 
      .info__blok, .info__blok2, .info__blok3 p{
-        font-size: 25px;
+        font-size: 10px;
      }
 
     .nav-link::after {
-        top: 100px;
-        height: 10px;
+        top: 50px;
+        height: 5px;
     }
 
     .background-fix,.background2, .meerinfo {
         background-image: none;
+        margin-bottom: 375px;
     }
+
 }
 
 footer{
@@ -670,7 +670,6 @@ footer p{
     flex-direction: row;
     flex-wrap: wrap;
     background-size: cover;
-    width: 75%;
     height: auto;  
     margin-top: 100px;
     margin-left: 170px; 
@@ -695,30 +694,53 @@ footer p{
     height: 40vh;
 }
 
-@media screen and (max-width: 1100px){ 
+@media screen and (max-width: 500px){ 
+
+    .footer a {
+        font-size: 10px;
+    }
+
+    .footer {
+        margin-top: 200px;
+    }
+
+    footer h2 {
+        font-size: 18px;
+    }
+
+    .insta img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .footer_credits {
+        font-size: 8px;
+        margin-right: 0px;
+    }
+
+    .background-fix {
+        margin-left: 50px;
+    }
+
+    #instafeed {
+        margin-left: 125px;
+    }
+
+    .footer_links, .footer_midden,.footer_rechts {
+        margin: 0px;
+    }
 
     .footer_rechts {
         display: none;
     }
 
     .footer_midden {
-        margin-right: 170px;
+        margin-right: 50px;
     }
 
-    .footer a {
-        font-size: 20px;
+    .footer_links {
+        margin-left: 50px;
     }
 
-    .footer {
-        margin-top: 400px;
-    }
-
-    footer h2 {
-        font-size: 30px;
-    }
-
-    #instafeed {
-        margin-left: 250px;
-    }
 }
 
