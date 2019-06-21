@@ -185,6 +185,23 @@ nav .stal {
     border-radius: 12px;
 }
 
+@media screen and (max-width: 1100px){
+
+    .nav__form {
+        display: none;
+    }
+    .nav-rechts {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    nav .stal {
+        margin-left: 100px;
+    }
+}
+
+
 @media screen and (max-width: 500px){
     .nav__form {
        display: none;
@@ -236,14 +253,6 @@ nav .stal {
      }
 }
 
-@media screen and (max-width: 1100px){
-    .nav__form {
-        display: none;
-    }
-    .nav-rechts {
-        width: 90px;
-    }
-}
 
 .nav-link:hover::after {
     transform: scale(1,1);
@@ -311,6 +320,17 @@ nav .stal {
     margin-left: 170px;
 }
 
+@media screen and (max-width: 1440px) {
+
+    .welkom p {
+        margin-left: 100px;
+    }
+
+    .welkom h1 {
+        margin-left: 100px;
+    }
+}
+
 @media screen and (max-width: 500px) {
 
     .welkom p {
@@ -334,6 +354,7 @@ nav .stal {
         background-size: cover;
     }
 } 
+
 
 .uitleg{
     padding-top: 125px;
@@ -526,11 +547,26 @@ nav .stal {
 
  .info__blok2 li, .info__blok3 li {
     margin: 5px 30px;
-    font-size: 16px;
+    font-size: 10px;
 }
 
 .info__blok h2, .info__blok2 h2, .info__blok3 h2{
     padding: 20px 30px;
+}
+
+@media screen and (max-width: 1440px) {
+
+    .meerinfo {
+        height: 180vh;
+    }
+
+    .extra-info {
+        margin-left: 100px;
+    }
+
+    #blok3 {
+        margin-right: 100px;
+    }
 }
 
 @media screen and (max-width: 500px){
@@ -621,6 +657,7 @@ nav .stal {
         margin-bottom: 100px;
     }
 }
+
 
 footer{
     width: 100%;
