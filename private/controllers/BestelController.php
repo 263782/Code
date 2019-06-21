@@ -6,7 +6,7 @@
  */
 class BestelController {
 
-	function overview(){
+	function overview(){ 
 
 	
 		// Haal alle Opleidingen op uit de "model" laag.

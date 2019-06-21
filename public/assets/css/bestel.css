@@ -186,6 +186,10 @@
         flex-direction: column;
     }
 
+    .bestel {
+        padding-top: 150px;
+    }
+    
     .input-container {
         width: 200px;
         height: 35px;
