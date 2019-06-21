@@ -1,6 +1,8 @@
 
-## sprint 1
+## website
 http://26378.hosts2.ma-cloud.nl/code/public/
+
+(Ik ben nogsteeds bezig met de website. ik heb afgesproken dat ik eerst ging werken aan het goed responsive maken en daarna pas de functionaliteit. ik heb mij hier aan gehouden. de website is over 2 weken pas systeematisch goed in elkaar.(de search bar enzo.))
 
 ## Stal rijopleiding
 http://www.stalrijopleiding.nl is een website van Matthijs Berghuis waar gebruikers kunnen kijken naar de rijschool bedoeld voor alle mensen zonder rijbewijs.
